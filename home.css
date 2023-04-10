@@ -1,0 +1,321 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: "Mulish", sans-serif;
+      }
+      
+      html{
+        scroll-behavior: smooth;
+      }
+      
+      .banner {
+        width: 80%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+          url(rent-bg.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .navbar {
+        width: 75%;
+        margin: auto;
+        margin-left: 33%;
+        padding: 35px 0;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .logo {
+        width: 500px;
+        cursor: pointer;
+      }
+      
+      .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+      }
+      
+      .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      
+      .navbar ul li::after {
+        content: "";
+        height: 3px;
+        width: 0;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+      }
+      
+      .navbar ul li:hover::after {
+        width: 100%;
+      }
+      
+      .content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+      }
+      
+      .content h1 {
+        font-size: 70px;
+        margin-top: 80px;
+      }
+      
+      .content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+      }
+      
+      .login-btn {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .signup-btn {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .cover {
+        background: #009688;
+        height: 100%;
+        width: 0%;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+      }
+      
+      button:hover span {
+        width: 100%;
+      }
+      
+      button:hover {
+        border: none;
+      }
+
+
+
+
+
+      
+      
+      footer {
+        background-color: rgba(0, 0, 0, 0);
+        overflow: hidden;
+      }
+      
+      footer a {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        /* font-weight: 550; */
+        float: left;
+        color: white;
+      }
+      
+
+
+      /* Sidebar */
+
+      .opt:hover{
+        color: #009688;
+      }
+
+
+       /* photo */
+       .banner {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+          url(rent-bg.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+
+
+
+h1{
+        font-size: 55px;
+        color: whitesmoke;
+
+        font-weight: 500;
+        text-align:center;
+        /* padding-top: 20px; */
+        height: 120px;
+        background-color: #333;
+}
+
+h1:hover{
+        color: #0A7A87;
+        transition-delay: 30ms;
+}
+/* nav {
+        opacity: 50%;
+        color: white;
+        background-color: #333;
+        height: 50px;
+        text-align: left;
+    } */
+/* .headingsss{
+        font-size: 55px;
+        color: whitesmoke;
+
+        font-weight: 500;
+        text-align:center;
+        /* padding-top: 20px; */
+        /* height: 120px;
+        background-color: #333; */
+/* } */ 
+
+.optn {
+        opacity: 100%;
+        background: #21252900;
+        padding: 20px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        overflow: hidden;
+}
+
+
+    
+.lol .c_a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 24px;
+}
+
+
+.lol .c_a:hover {
+        color: #0A7A87;
+        transition-delay: 30ms;
+      }
+
+.login-button{
+        margin-top: 0;
+        margin-left: 510%;
+        color: white;
+        text-decoration: none;
+        padding: 16px;
+        text-align: right ;
+        font-size: 24px;
+}
+
+
+.login-button:hover{
+        color: #000000;
+        transition-delay: 40ms;
+}
+
+
+
+/* p{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(0, 255, 0);
+} */
+
+
+.hehe{
+        background-color: rgb(255, 255, 255);
+        height: 150px;
+        width : 150px;
+        border: solid;
+        border-color: black;
+        border-radius: 10%;
+        border-width: 2px 5px 10px 20px;
+        padding: 20px;
+        margin: 30px;
+        display: inline-block;
+}
+
+.hehe:hover{
+        background-color: aqua;
+        font-family:  monospace;
+}
+
+.huhu:hover{
+        background-color: red;
+        font-family:  monospace;
+}
+
+.photo{
+        height: 150px;
+        width: 150px;
+}
+
+        .rent-head{
+        transition-delay: 5ms;
+        text-decoration: none;
+        color: rgba(210, 206, 206, 0.94);
+        padding: 0 10px;
+        background: none;
+      }
+      
+      
+      
+      .rent-head:after {
+        content: "";
+        height: 3px;
+        width: 0;
+        background-color: white ;
+        position: absolute;
+        left: 0;
+        bottom: 190px;
+        transition: 0.3s;
+      }
+      
+      .rent-head:hover{
+        color: #009688;
+        transition-delay: 1ms;
+        transition-duration: 0.5s;
+      
+      }
+      
+      .rent-head:hover:after {
+        margin-left: 25%;
+        width: 50%;
+      }
+      
